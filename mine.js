@@ -1,6 +1,3 @@
-let allImages = document.querySelectorAll("img");
-allImages.forEach((value)=>{
-    value.oncontextmenu = (e)=>{
-        e.preventDefault();
-    }
-})
+document.querySelector("video").addEventListener("contextmenu", (event) => {
+    event.preventDefault();
+  });
