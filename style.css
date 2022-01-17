@@ -32,14 +32,14 @@ body {
     padding-top: 0px;
     padding-left: 80px;
     padding-right: 80px;
-    text-shadow: 2px 1px 2px rgba(251, 12, 12,1), 2px -1px 3px rgba(0, 72, 255, 0.5),-2px -1px 2px rgba(52, 251, 12, 1);
+    text-shadow: 2px 1px 2px rgba(251, 12, 12,0.5), 2px -1px 3px rgba(0, 72, 255, 0.5),-2px -1px 2px rgba(52, 251, 12, 0.5);
     animation: chromaticMove 50ms ease infinite,  infinite;
 }
 
 @keyframes chromaticMove { 
-    0%{text-shadow: 2px 1px 2px rgba(251, 12, 12,1), 2px -1px 3px rgba(0, 72, 255, 0.5),-2px -1px 2px rgba(52, 251, 12, 1);}
-    50%{text-shadow: -2px -1px 3px rgba(251, 12, 12,1), -2px 1px 4px rgba(0, 72, 255, 0.5), 2px 1px 3px rgba(52, 251, 12, 1);}
-    100%{text-shadow: 2px 1px 2px rgba(251, 12, 12,1), 2px -1px 3px rgba(0, 72, 255, 0.5),-2px -1px 2px rgba(52, 251, 12, 1);}
+    0%{text-shadow: 2px 1px 2px rgba(251, 12, 12,0.9), 2px -1px 3px rgba(0, 72, 255, 1),-2px -1px 2px rgba(52, 251, 12,0.9);}
+    50%{text-shadow: -2px -1px 3px rgba(251, 12, 12,0.9), -2px 1px 4px rgba(0, 72, 255, 1), 2px 1px 3px rgba(52, 251, 12,0.9);}
+    100%{text-shadow: 2px 1px 2px rgba(251, 12, 12,0.9), 2px -1px 3px rgba(0, 72, 255, 1),-2px -1px 2px rgba(52, 251, 12,0.9);}
 }
 
 .nav-link {
@@ -85,15 +85,15 @@ video {
     position: relative;
     max-width: 500px;
     margin: 6px;
-    box-shadow: 2px 1px 2px rgba(251, 12, 12,1), 2px -1px 3px rgba(0, 72, 255, 0.5),-2px -1px 2px rgba(52, 251, 12, 1);
+    box-shadow: 2px 1px 2px rgba(251, 12, 12,0.7), 2px -1px 3px rgba(0, 72, 255, 0.9),-2px -1px 2px rgba(52, 251, 12, 0.7);
     animation: chromaticMoveBox 50ms ease infinite,  infinite;;
 }
 
 
 @keyframes chromaticMoveBox { 
-    0%{box-shadow: 2px 1px 2px rgba(251, 12, 12,1), 2px -1px 3px rgba(0, 72, 255, 0.5),-2px -1px 2px rgba(52, 251, 12, 1);}
-    50%{box-shadow: -2px -1px 3px rgba(251, 12, 12,1), -2px 1px 4px rgba(0, 72, 255, 0.5), 2px 1px 3px rgba(52, 251, 12, 1);}
-    100%{box-shadow: 2px 1px 2px rgba(251, 12, 12,1), 2px -1px 3px rgba(0, 72, 255, 0.5),-2px -1px 2px rgba(52, 251, 12, 1);}
+    0%{box-shadow: 2px 1px 2px rgba(251, 12, 12,0.7), 2px -1px 3px rgba(0, 72, 255, 0.9),-2px -1px 2px rgba(52, 251, 12, 0.7);}
+    50%{box-shadow: -2px -1px 3px rgba(251, 12, 12,0.7), -2px 1px 4px rgba(0, 72, 255, 0.9), 2px 1px 3px rgba(52, 251, 12, 0.7);}
+    100%{box-shadow: 2px 1px 2px rgba(251, 12, 12,0.7), 2px -1px 3px rgba(0, 72, 255, 0.9),-2px -1px 2px rgba(52, 251, 12, 0.7);}
 }
 
 .project-overlay {
