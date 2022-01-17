@@ -20,7 +20,7 @@ body {
 
 .navbar {
     padding-top: 0px;
-    background-image: linear-gradient(rgb(6, 6, 6) 60%, rgba(6, 6, 6, 0.5) 90%, rgba(6, 6, 6, 0) 100%)
+    background-image: linear-gradient(rgb(6, 6, 6) 60%, rgba(6, 6, 6, 0.651) 80%, rgba(6, 6, 6, 0.027) 100%)
 }
 
 .navbar-brand {
@@ -154,4 +154,53 @@ button {
 .spinner-border {
     display: none;
 }
+
+
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        font-size: 35pt;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .nav-link {
+        padding-bottom: 20px;
+    }
+
+    .flex-column {
+        max-width: 50%;
+      }
+
+      h1 {
+        font-size: 20px;
+        
+    }
+
+}
+
+
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        font-size: 32pt;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .nav-link {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+
+    .flex-column {
+        max-width: 100%;
+      }
+
+      h1 {
+        font-size: 18px;
+        
+    }
+}
+
+
+
 
