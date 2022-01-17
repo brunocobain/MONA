@@ -74,6 +74,12 @@ img {
     
   }
 
+video {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
 
   .img-overlay {
     position: relative;
@@ -145,6 +151,12 @@ button {
     width: auto !important;
     max-height: 90vh;
     margin: 0 auto;
+}
+
+.carousel-item iframe {
+    height: 90vh;
+    margin: 0 auto;
+    width: 100% !important;
 }
 
 .ratio {
