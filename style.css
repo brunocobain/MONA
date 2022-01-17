@@ -1,0 +1,157 @@
+/* Webfont: Wildworld */@font-face {
+    font-family: 'WildWorld';
+    src: url('font/WILDWORLD.otf'); /* IE9 Compat Modes */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Thunder-BlackLC */@font-face {
+    font-family: 'Thunder';
+    src: url('font/Web-TT/Thunder-LC.ttf'); /* IE9 Compat Modes */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background-color: rgb(6, 6, 6);
+}
+
+.navbar {
+    padding-top: 0px;
+    background-image: linear-gradient(rgb(6, 6, 6) 60%, rgba(6, 6, 6, 0.5) 90%, rgba(6, 6, 6, 0) 100%)
+}
+
+.navbar-brand {
+    font-family: WildWorld;
+    font-size: 40pt;
+    color: white !important;
+    padding: 0px;
+    border-bottom: 1px solid white;
+    padding-top: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-shadow: 2px 1px 2px rgba(251, 12, 12,1), 2px -1px 3px rgba(0, 72, 255, 0.5),-2px -1px 2px rgba(52, 251, 12, 1);
+    animation: chromaticMove 50ms ease infinite,  infinite;
+}
+
+@keyframes chromaticMove { 
+    0%{text-shadow: 2px 1px 2px rgba(251, 12, 12,1), 2px -1px 3px rgba(0, 72, 255, 0.5),-2px -1px 2px rgba(52, 251, 12, 1);}
+    50%{text-shadow: -2px -1px 3px rgba(251, 12, 12,1), -2px 1px 4px rgba(0, 72, 255, 0.5), 2px 1px 3px rgba(52, 251, 12, 1);}
+    100%{text-shadow: 2px 1px 2px rgba(251, 12, 12,1), 2px -1px 3px rgba(0, 72, 255, 0.5),-2px -1px 2px rgba(52, 251, 12, 1);}
+}
+
+.nav-link {
+    padding: 0px;
+    padding-top: 3px;
+    padding-bottom: 30px;
+    color: white;
+    font-family: Thunder;
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    color: rgb(68, 68, 68);
+}
+
+h1 {
+    font-family: WildWorld;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    
+}
+
+
+.flex-column {
+    max-width: 33%;
+    padding: 6px;
+  }
+
+img {
+    margin: 0px;
+    
+  }
+
+
+  .img-overlay {
+    position: relative;
+    max-width: 500px;
+    margin: 6px;
+    box-shadow: 2px 1px 2px rgba(251, 12, 12,1), 2px -1px 3px rgba(0, 72, 255, 0.5),-2px -1px 2px rgba(52, 251, 12, 1);
+    animation: chromaticMoveBox 50ms ease infinite,  infinite;;
+}
+
+
+@keyframes chromaticMoveBox { 
+    0%{box-shadow: 2px 1px 2px rgba(251, 12, 12,1), 2px -1px 3px rgba(0, 72, 255, 0.5),-2px -1px 2px rgba(52, 251, 12, 1);}
+    50%{box-shadow: -2px -1px 3px rgba(251, 12, 12,1), -2px 1px 4px rgba(0, 72, 255, 0.5), 2px 1px 3px rgba(52, 251, 12, 1);}
+    100%{box-shadow: 2px 1px 2px rgba(251, 12, 12,1), 2px -1px 3px rgba(0, 72, 255, 0.5),-2px -1px 2px rgba(52, 251, 12, 1);}
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px ;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(161, 161, 161);
+    color: #fff;
+    background-image: url('img/lock.png');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center;
+}
+
+.project-overlay-cleared {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px ;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+}
+
+.text {
+    color: white;
+}
+
+button img, svg {
+    height: 20px;
+    margin: 5px;
+    top: 0px !important;
+}
+
+button, .position-absolute{
+    right: 0px;
+}
+
+button {
+    border: none !important;
+}
+
+.btn-close, .p-3 {
+    padding: 0px !important;
+}
+
+.modal-dialog {
+    max-height: 90vh;
+}
+
+.carousel-item img {
+    width: auto !important;
+    max-height: 90vh;
+    margin: 0 auto;
+}
+
+.ratio {
+    background-color: transparent !important;
+}
+
+.spinner-border {
+    display: none;
+}
+
