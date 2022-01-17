@@ -312,7 +312,6 @@ a {
 }
 
 
-
 @media (max-width: 767.98px) {
     .navbar-brand {
         font-size: 35pt;
@@ -332,6 +331,13 @@ a {
         font-size: 20px;
         
     }
+
+
+    .logo {
+        margin-top: 10px;
+        height: 20px;
+    }
+
 
 }
 
@@ -404,6 +410,7 @@ a {
     }
 
 
+    
 
 }
 
