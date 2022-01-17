@@ -143,6 +143,10 @@ button {
     padding: 0px !important;
 }
 
+.modal {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 .modal-dialog {
     max-height: 85vh;
 }
